@@ -1,0 +1,48 @@
+{
+  "env": {
+    "browser": true,
+    "react-native/react-native": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "extends": ["eslint:recommended", "@react-native-community", "prettier", "airbnb"],
+  "plugins": ["react", "react-native"],
+  "rules": {
+    "react-native/no-unused-styles": 1,
+    "react-native/split-platform-components": 2,
+    "react-native/no-inline-styles": 1,
+    "react-native/no-color-literals": 0,
+    "react-native/no-raw-text": 0,
+    "import/no-extraneous-dependencies": 2,
+    "import/extensions": ["error", "never", { "svg": "always" }],
+    "import/order": ["error", { "newlines-between": "always" }],
+    "import/no-duplicates": 2,
+    "import/no-useless-path-segments": 2,
+    "import/no-cycle": 0,
+    "no-use-before-define": 0,
+    "import/prefer-default-export": 0,
+    "import/named": 0,
+    "import/namespace": 0,
+    "import/default": 0,
+    "import/no-named-as-default-member": 0,
+    "import/no-named-as-default": 0,
+    "import/no-unused-modules": 0,
+    "import/no-deprecated": 0,
+    "@typescript-eslint/indent": 0,
+    "import/no-anonymous-default-export": 2,
+    "react-hooks/rules-of-hooks": 2,
+    "react-hooks/exhaustive-deps": ["error", { "additionalHooks": "(useMemoOne)" }],
+    "jest/no-identical-title": 2,
+    "jest/valid-expect": 2,
+    "camelcase": 2,
+    "prefer-destructuring": 2,
+    "no-nested-ternary": 2,
+    "comma-dangle": 0,
+    "linebreak-style": 0,
+    "react/jsx-filename-extension": 0,
+    "prettier/prettier": 0
+  }
+}
